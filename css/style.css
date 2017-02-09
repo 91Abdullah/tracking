@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+.logo {
+    height: 60px;
+    width: 120px;
+}
+
+.label {
+    color: #000;
+}
+
+.th_table_col_headers > td {
+    font-weight: bold;
+}
+
+.shipmentTitleBar_label_tracking_number_parenth {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.shipment_facts_area > .title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}

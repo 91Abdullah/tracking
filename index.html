@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <hr>
+                <h1>Consignment Tracking</h1>
+                <img class="logo img-responsive" src="img/logo.png" alt="">
+                <hr>
+            </header>
+            <main>
+                <div class="row">
+                    <div class="col-xs-12 col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Track Shipments here!</div>
+                            <div class="panel-body">
+                                <form id="tracking-form" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label" for="cn1">Consignment Number</label>
+                                        <div class="input-group col-lg-6">
+                                            <input type="text" name="cn1" id="cn1" class="form-control" placeholder="Consignment #">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="submit">Track</button>
+                                            </span>
+                                        </div><!-- /input-group -->
+                                    </div>
+                                </form>
+                                <hr>
+                                <div id="track-results" class="col-xs-12">
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <script src="js/jquery-3.1.0.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/jquery.form.min.js"></script>
+                <script src="js/script.js"></script>
+            </footer>
+        </div>
+        
+    </body>
+</html>
