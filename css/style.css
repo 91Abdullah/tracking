@@ -34,3 +34,11 @@ header h1 {
     font-size: 22px;
     font-weight: bold;
 }
+
+.center {
+    text-align: center;
+}
+
+.center span {
+    color: red;
+}
